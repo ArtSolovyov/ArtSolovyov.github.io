@@ -1,0 +1,35 @@
+#simplebox, #innertext, body, #bg {
+    position: relative;
+}
+
+#simplebox {
+    position: relative;
+    margin-top: 25vh;
+    margin-left: 37vw;
+    height: 500px;
+    width: 500px;
+    border-color: red;
+    border-radius: 10px;
+    border: solid;
+    text-align: center;
+}
+
+#innerbox {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    border-color: red;
+    border-radius: 10px;
+    border: solid;
+    text-align: center;
+}
+
+
+body {
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,116,9,1) 45%, rgba(0,212,255,1) 100%);
+z-index: 1;
+}
+
+ 
